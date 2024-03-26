@@ -15,7 +15,7 @@ public class NextActivity extends AppCompatActivity {
 
         Intent i = getIntent();
 
-        String textoDigitado = i.getStringExtra("texto");
+        String textoDigitado = i.getStringExtra("texto"); //adc texto
 
         TextView tvTexto = findViewById(R.id.tv_texto);
         tvTexto.setText(textoDigitado);
